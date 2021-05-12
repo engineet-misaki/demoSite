@@ -2,16 +2,17 @@
 ScrollReveal().reveal('.fadeContets', {
     duration: 1000, // アニメーションの完了にかかる時間
     viewFactor: 0.4, // 0~1,どれくらい見えたら実行するか
-    reset: true,   // 何回もアニメーション表示するか
+    reset: false,   // 何回もアニメーション表示するか
     // distance: "1000px",
     scale: 0.1,
 });
 ScrollReveal().reveal('.slideContets', {
     duration: 1000, // アニメーションの完了にかかる時間
-    viewFactor: 0.1, // 0~1,どれくらい見えたら実行するか
+    viewFactor: 0, // 0~1,どれくらい見えたら実行するか
     reset: false,   // 何回もアニメーション表示するか
-    distance: "1000px",
-    origin: "left"
+    distance: "100px",
+    origin: "left",
+    mobile: false
     // scale: 0.1,
 });
 // ScrollReveal().reveal('.rotateContets', {
@@ -25,8 +26,9 @@ ScrollReveal().reveal('.slideContets', {
 ScrollReveal().reveal('.card', {
     duration: 2000, // アニメーションの完了にかかる時間
     reset: false,   // 何回もアニメーション表示するか
-    distance: "1000px",
-    origin: "right"
+    distance: "100px",
+    origin: "right",
+    mobile: false
 });
 // ScrollReveal().reveal('.card2', {
 //     duration: 2000, // アニメーションの完了にかかる時間
